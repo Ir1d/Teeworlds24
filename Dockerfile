@@ -5,6 +5,7 @@ RUN DEBIAN_FRONTEND=noniteractive && \
     apt-get install -y lib32z1 lib32stdc++6 && \
     apt-get install -y teeworlds && \
     apt-get install -y teeworlds-server && \
+    apt-get install -y wget && \
     apt-get clean && \
     apt-get autoclean && \
     wget "https://raw.githubusercontent.com/imcaffrey/Teeworlds24/master/autoexec.cfg" && \
